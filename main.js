@@ -22,6 +22,7 @@ function hidedivindividual(){
 	var ysulamerica = document.getElementById("sulamericaimg");
 	var xunimed = document.getElementById("unimedportifolio");
 	var yunimed = document.getElementById("unimedimg");
+	var titulo = document.getElementById('titulo');
 
 	xamil.style.display = "none";
 	yamil.style.border = "none";
@@ -52,6 +53,7 @@ function hidedivempresarial(){
 	var ysulamerica = document.getElementById("sulamericaimg");
 	var xunimed = document.getElementById("unimedportifolio");
 	var yunimed = document.getElementById("unimedimg");
+	var titulo = document.getElementById('titulo');
 
 	xamil.style.display = "none";
 	yamil.style.border = "none";
@@ -72,7 +74,7 @@ function hidedivempresarial(){
 function amildiv(){
 	var xamil = document.getElementById("amilportifolio");
 	var yamil = document.getElementById("amilimg");
-	var titulo = document.getElementById('titulo');
+	
 	titulo.innerHTML = "Amil";
 	xamil.style.display = "block";
 	yamil.style.border = "1px solid white";
@@ -82,6 +84,8 @@ function amildiv(){
 function bradescodiv(){
 	var xbradesco = document.getElementById("bradescoportifolio");
 	var ybradesco = document.getElementById("bradescoimg");
+
+	titulo.innerHTML = "Bradesco";
 	xbradesco.style.display = "block";
 	ybradesco.style.border = "1px solid white";
 }
@@ -89,6 +93,8 @@ function bradescodiv(){
 function hapvidadiv(){
 	var xhapvida = document.getElementById("hapvidaportifolio");
 	var yhapvida = document.getElementById("hapvidaimg");
+	
+	titulo.innerHTML = "Hapvida";
 	xhapvida.style.display = "block";
 	yhapvida.style.border = "1px solid white";
 }
@@ -96,6 +102,8 @@ function hapvidadiv(){
 function lifedaydiv(){
 	var xlifeday = document.getElementById("lifedayportifolio");
 	var ylifeday = document.getElementById("lifedayimg");
+
+	titulo.innerHTML = "Lifeday";
 	xlifeday.style.display = "block";
 	ylifeday.style.border = "1px solid white";
 }
@@ -103,6 +111,8 @@ function lifedaydiv(){
 function medvidadiv(){
 	var xmedvida = document.getElementById("medvidaportifolio");
 	var ymedvida = document.getElementById("medvidaimg");
+
+	titulo.innerHTML = "Medvida";
 	xmedvida.style.display = "block";
 	ymedvida.style.border = "1px solid white";
 }
@@ -110,6 +120,8 @@ function medvidadiv(){
 function sulamericadiv(){
 	var xsulamerica = document.getElementById("sulamericaportifolio");
 	var ysulamerica = document.getElementById("sulamericaimg");
+
+	titulo.innerHTML = "SulAmérica";
 	xsulamerica.style.display = "block";
 	ysulamerica.style.border = "1px solid white";
 }
@@ -117,6 +129,8 @@ function sulamericadiv(){
 function unimeddiv(){
 	var xunimed = document.getElementById("unimedportifolio");
 	var yunimed = document.getElementById("unimedimg");
+
+	titulo.innerHTML = "Unimed";
 	xunimed.style.display = "block";
 	yunimed.style.border = "1px solid white";
 }
