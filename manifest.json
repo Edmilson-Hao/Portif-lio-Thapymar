@@ -1,0 +1,74 @@
+{
+    "short_name": "Portifolio",
+    "name": "Portifolio Thapymar",
+    "categories": ["consulta", "portifolio", "ferramenta"],
+    "description": "Portifolio de planos comercializados pela Thapymar",
+    "icons": [
+        {
+            "src": "img/logos/thapymar192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+          },
+          {
+            "src": "img/logos/thapymar512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+          }
+    ],
+    "start_url": "index.html",
+    "background_color": "#d31313",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#d31313",
+    "shortcuts": [
+        {
+            "name": "Portifolio Thapymar.",
+            "short_name": "Portifolio",
+            "description": "Portifolio de planos comercializados pela Thapymar",
+            "url": "index.html",
+            "icons": [
+                {
+                    "src": "img/logos/thapymar192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "url": "indes.html",
+    "lang": "Portuguese",
+    "screenshots": [
+        {
+            "src": "index.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "indexmobile.png",
+            "sizes": "750x1334",
+            "type": "image/png"
+        },
+        {
+            "src": "individual.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "individualmobile.png",
+            "sizes": "750x1334",
+            "type": "image/png"
+        },
+        {
+            "src": "empresarial.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "empresarialmobile.png",
+            "sizes": "750x1334",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait"
+}

@@ -1,0 +1,122 @@
+window.addEventListener('load', e => {
+    if('serviceWorker' in navigator){
+        try{
+            navigator.serviceWorker.register('sw.js');
+            console.log('ServiceWorker registrado.');
+        } catch (error){
+            console.log('ServideWorker falhou.');
+        }
+    }
+});
+
+function hidedivindividual(){
+	var xamil = document.getElementById("amilportifolio");
+	var yamil = document.getElementById("amilimg");
+	var xbradesco = document.getElementById("bradescoportifolio");
+	var ybradesco = document.getElementById("bradescoimg");
+	var xhapvida = document.getElementById("hapvidaportifolio");
+	var yhapvida = document.getElementById("hapvidaimg");
+	var xmedvida = document.getElementById("medvidaportifolio");
+	var ymedvida = document.getElementById("medvidaimg");
+	var xsulamerica = document.getElementById("sulamericaportifolio");
+	var ysulamerica = document.getElementById("sulamericaimg");
+	var xunimed = document.getElementById("unimedportifolio");
+	var yunimed = document.getElementById("unimedimg");
+
+	xamil.style.display = "none";
+	yamil.style.border = "none";
+	xbradesco.style.display = "none";
+	ybradesco.style.border = "none";
+	xhapvida.style.display = "none";
+	yhapvida.style.border = "none";
+	xmedvida.style.display = "none";
+	ymedvida.style.border = "none";
+	xsulamerica.style.display = "none";
+	ysulamerica.style.border = "none";
+	xunimed.style.display = "none";
+	yunimed.style.border = "none";
+}
+
+function hidedivempresarial(){
+	var xamil = document.getElementById("amilportifolio");
+	var yamil = document.getElementById("amilimg");
+	var xbradesco = document.getElementById("bradescoportifolio");
+	var ybradesco = document.getElementById("bradescoimg");
+	var xhapvida = document.getElementById("hapvidaportifolio");
+	var yhapvida = document.getElementById("hapvidaimg");
+	var xlifeday = document.getElementById("lifedayportifolio");
+	var ylifeday = document.getElementById("lifedayimg");
+	var xmedvida = document.getElementById("medvidaportifolio");
+	var ymedvida = document.getElementById("medvidaimg");
+	var xsulamerica = document.getElementById("sulamericaportifolio");
+	var ysulamerica = document.getElementById("sulamericaimg");
+	var xunimed = document.getElementById("unimedportifolio");
+	var yunimed = document.getElementById("unimedimg");
+
+	xamil.style.display = "none";
+	yamil.style.border = "none";
+	xbradesco.style.display = "none";
+	ybradesco.style.border = "none";
+	xhapvida.style.display = "none";
+	yhapvida.style.border = "none";
+	xlifeday.style.display = "none";
+    ylifeday.style.border = "none"
+	xmedvida.style.display = "none";
+	ymedvida.style.border = "none";
+	xsulamerica.style.display = "none";
+	ysulamerica.style.border = "none";
+	xunimed.style.display = "none";
+	yunimed.style.border = "none";
+}
+
+function amildiv(){
+	var xamil = document.getElementById("amilportifolio");
+	var yamil = document.getElementById("amilimg");
+	var titulo = document.getElementById('titulo');
+	titulo.innerHTML = "Amil";
+	xamil.style.display = "block";
+	yamil.style.border = "1px solid white";
+
+}
+
+function bradescodiv(){
+	var xbradesco = document.getElementById("bradescoportifolio");
+	var ybradesco = document.getElementById("bradescoimg");
+	xbradesco.style.display = "block";
+	ybradesco.style.border = "1px solid white";
+}
+
+function hapvidadiv(){
+	var xhapvida = document.getElementById("hapvidaportifolio");
+	var yhapvida = document.getElementById("hapvidaimg");
+	xhapvida.style.display = "block";
+	yhapvida.style.border = "1px solid white";
+}
+
+function lifedaydiv(){
+	var xlifeday = document.getElementById("lifedayportifolio");
+	var ylifeday = document.getElementById("lifedayimg");
+	xlifeday.style.display = "block";
+	ylifeday.style.border = "1px solid white";
+}
+
+function medvidadiv(){
+	var xmedvida = document.getElementById("medvidaportifolio");
+	var ymedvida = document.getElementById("medvidaimg");
+	xmedvida.style.display = "block";
+	ymedvida.style.border = "1px solid white";
+}
+
+function sulamericadiv(){
+	var xsulamerica = document.getElementById("sulamericaportifolio");
+	var ysulamerica = document.getElementById("sulamericaimg");
+	xsulamerica.style.display = "block";
+	ysulamerica.style.border = "1px solid white";
+}
+
+function unimeddiv(){
+	var xunimed = document.getElementById("unimedportifolio");
+	var yunimed = document.getElementById("unimedimg");
+	xunimed.style.display = "block";
+	yunimed.style.border = "1px solid white";
+}

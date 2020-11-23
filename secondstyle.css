@@ -1,0 +1,154 @@
+body {
+  font-family: Arial;
+  background: #d31313;
+}
+  
+a{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+  
+.left {
+  left: 0;
+  width: 25%;
+  background: rgba(0,0,0,0.4);
+  /*background-color: #0f4c75;*/
+  padding: 0;
+}
+  
+.right {
+  right: 0;
+  width: 75%;
+  background: #d31313;
+  /*background-color: #00b7c2;*/
+}
+  
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0;
+}
+  
+.centered img {
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+}
+  
+.sidebar{
+  height: 90%;
+  margin: 0px;
+  padding: 0px;
+}
+  
+.headertwo {
+  padding: 0.8em;
+  margin: 0.1em;
+  width: 11em;
+  border: 1px solid white;
+  display: inline-block;
+  vertical-align: middle;
+}
+  
+.headertwo:hover{
+  background: red;
+  border: 1px solid white;
+}
+  
+.headertree{
+  padding: -1.3em;
+  margin: -1.3em;
+}
+  
+.headertree:hover{
+  background: red;
+  border: 1px solid white;
+}
+  
+.inside{
+  width: 75%;
+  height: 45%;
+  padding: 1em;
+  margin: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.imglogo{
+  cursor: pointer;
+}
+  
+.imglogo:hover{
+  height: 55px;
+  width: 55px;
+}
+
+#head{
+  position: absolute;
+  width: 100%;
+  height: 4em;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+#head img{
+  position: absolute;
+  right: 0;
+  width: 4em;
+  height: 4em;
+}
+
+#head h1{
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .centered img {
+    border-radius: 10%;
+    padding: 0;
+    margin: 0;
+    width: 85px;
+    height: 85px;
+  }
+  
+  .imglogo:hover{
+    height: 95px;
+    width: 95px;
+  }
+  
+}
+  
+@media only screen and (min-width: 1920px) {
+  .centered img {
+    border-radius: 10%;
+    padding: 0;
+    margin: -0.2em;
+    width: 168px;
+    height: 168px;
+  }
+  
+  .imglogo:hover{
+    height: 180px;
+    width: 180px;
+  }
+  
+}
