@@ -41,7 +41,8 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: 0;
+  padding-top: 3em;
+  
 }
   
 .centered img {
