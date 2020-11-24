@@ -9,36 +9,7 @@ window.addEventListener('load', e => {
     }
 });
 
-function hidedivindividual(){
-	var xamil = document.getElementById("amilportifolio");
-	var yamil = document.getElementById("amilimg");
-	var xbradesco = document.getElementById("bradescoportifolio");
-	var ybradesco = document.getElementById("bradescoimg");
-	var xhapvida = document.getElementById("hapvidaportifolio");
-	var yhapvida = document.getElementById("hapvidaimg");
-	var xmedvida = document.getElementById("medvidaportifolio");
-	var ymedvida = document.getElementById("medvidaimg");
-	var xsulamerica = document.getElementById("sulamericaportifolio");
-	var ysulamerica = document.getElementById("sulamericaimg");
-	var xunimed = document.getElementById("unimedportifolio");
-	var yunimed = document.getElementById("unimedimg");
-	var titulo = document.getElementById('titulo');
-
-	xamil.style.display = "none";
-	yamil.style.border = "none";
-	xbradesco.style.display = "none";
-	ybradesco.style.border = "none";
-	xhapvida.style.display = "none";
-	yhapvida.style.border = "none";
-	xmedvida.style.display = "none";
-	ymedvida.style.border = "none";
-	xsulamerica.style.display = "none";
-	ysulamerica.style.border = "none";
-	xunimed.style.display = "none";
-	yunimed.style.border = "none";
-}
-
-function hidedivempresarial(){
+function hidediv(){
 	var xamil = document.getElementById("amilportifolio");
 	var yamil = document.getElementById("amilimg");
 	var xbradesco = document.getElementById("bradescoportifolio");
@@ -53,6 +24,8 @@ function hidedivempresarial(){
 	var ysulamerica = document.getElementById("sulamericaimg");
 	var xunimed = document.getElementById("unimedportifolio");
 	var yunimed = document.getElementById("unimedimg");
+	var xinformativo = document.getElementById('informativoportifolio');
+	var yinformativo = document.getElementById('informativoimg');
 	var titulo = document.getElementById('titulo');
 
 	xamil.style.display = "none";
@@ -69,6 +42,8 @@ function hidedivempresarial(){
 	ysulamerica.style.border = "none";
 	xunimed.style.display = "none";
 	yunimed.style.border = "none";
+	xinformativo.style.display = "none";
+	yinformativo.style.border = "none";
 }
 
 function amildiv(){
@@ -133,4 +108,13 @@ function unimeddiv(){
 	titulo.innerHTML = "Unimed";
 	xunimed.style.display = "block";
 	yunimed.style.border = "1px solid white";
+}
+
+function informativodiv(){
+	var xinformativo = document.getElementById('informativoportifolio');
+	var yinformativo = document.getElementById('informativoimg');
+
+	titulo.innerHTML = "Informativos";
+	xinformativo.style.display = "block";
+	yinformativo.style.border = "1px solid white";
 }

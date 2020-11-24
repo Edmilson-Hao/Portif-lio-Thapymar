@@ -23,19 +23,21 @@
   <div class="split left">
     <div class="centered">
       <div class="sidebar">
-          <img class="imglogo" style="border: none; " id="amilimg" src="img\logos\amil.png" alt="amilimage" onclick="hidedivindividual(); amildiv();">
+          <img class="imglogo" style="border: none; " id="amilimg" src="img\logos\amil.png" alt="amilimage" onclick="hidediv(); amildiv();">
 
-          <img class="imglogo" style="border: none; " id="bradescoimg" src="img\logos\bradesco.png" alt="bradescoimage" onclick="hidedivindividual(); bradescodiv();">
+          <img class="imglogo" style="border: none; " id="bradescoimg" src="img\logos\bradesco.png" alt="bradescoimage" onclick="hidediv(); bradescodiv();">
 
-          <img class="imglogo" style="border: none; " id="hapvidaimg" src="img\logos\hapvida.png" alt="hapvidaimage" onclick="hidedivindividual(); hapvidadiv();">
+          <img class="imglogo" style="border: none; " id="hapvidaimg" src="img\logos\hapvida.png" alt="hapvidaimage" onclick="hidediv(); hapvidadiv();">
 
-          <img class="imglogo" style="border: none; " id="medvidaimg" src="img\logos\medvida.png" alt="medvidaimage" onclick="hidedivindividual(); medvidadiv();">
+          <img class="imglogo" style="border: none; display: none;" id="lifedayimg" src="img\logos\lifeday.png" alt="lifedayimage" onclick="hidediv(); lifedaydiv();">
 
-          <img class="imglogo" style="border: none; " id="sulamericaimg" src="img\logos\sulamerica.png" alt="sulamericaimage" onclick="hidedivindividual(); sulamericadiv();">
+          <img class="imglogo" style="border: none; " id="medvidaimg" src="img\logos\medvida.png" alt="medvidaimage" onclick="hidediv(); medvidadiv();">
 
-          <img class="imglogo" style="border: none; " id="unimedimg" src="img\logos\unimed.png" alt="unimedimage" onclick="hidedivindividual(); unimeddiv();">
+          <img class="imglogo" style="border: none; " id="sulamericaimg" src="img\logos\sulamerica.png" alt="sulamericaimage" onclick="hidediv(); sulamericadiv();">
 
-          <a href="img\idades.jpg" target="_blank"><img class="imglogo" style="border: none;" alt="idadeimage" id="unimedimg" src="img\logos\idades.png" ></a>
+          <img class="imglogo" style="border: none; " id="unimedimg" src="img\logos\unimed.png" alt="unimedimage" onclick="hidediv(); unimeddiv();">
+
+          <img class="imglogo" style="border: none; " id="informativoimg" src="img\logos\idades.png" alt="unimedimage" onclick="hidediv(); informativodiv();">
       </div>
     </div>
   </div>
@@ -215,12 +217,26 @@ Medvida
       </div>
 <!--
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Lifeday
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+<div id="lifedayportifolio" style="display: none;">
+          
+  <head>
+    
+  </head>
+</div>
+<!--
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SulAmérica
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
       <div id="sulamericaportifolio" style="display: none;">
         <head>
-        
+          <a class="link" href="img/individual/sulamerica/extramed.jpg" target="_blank"> <div class="headertwo">Extramed</div></a>
+
+          <br>
+
           <div class="headertwo">
             <div class="headertree">
               <a class="link" href="img\individual\sulamerica\sulamericasupremohospitalar.jpg" target="_blank"> <div class="inside">Supremo Hospitalar</div> </a>
@@ -300,6 +316,22 @@ Unimed
               <a class="link" href="img\individual\unimed\guiaunimed.pdf" target="_blank"> <div class="inside">Elegibilidade e Normativas</div> </a>
             </div>
           </div>
+        </head>
+      </div>
+<!--
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Informativo
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+      <div id="informativoportifolio" style="display: none;">
+        <head>
+
+          <a class="link" href="img\informativos\idades.jpg" target="_blank"> <div class="headertwo">Idades</div> </a>
+
+          <br>
+
+          <a class="link" href="img\informativos\compradecarenciasulamerica.jpg" target="_blank"> <div class="headertwo">Compra de Carência SulAmérica</div> </a>
+
         </head>
       </div>
 

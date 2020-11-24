@@ -38,6 +38,7 @@ const staticAssets = [
     './img/individual/sulamerica/sulamericapremiumhospitalar.jpg',
     './img/individual/sulamerica/sulamericasupremo.jpg',
     './img/individual/sulamerica/sulamericasupremohospitalar.jpg',
+    './img/individual/sulamerica/extramed.jpg',
     './img/individual/unimed/coletivoporadesao.jpg',
     './img/individual/unimed/guiaunimed.pdf',
     './img/logos/amil.png',
