@@ -24,8 +24,8 @@ function hidediv(){
 	var ysulamerica = document.getElementById("sulamericaimg");
 	var xunimed = document.getElementById("unimedportifolio");
 	var yunimed = document.getElementById("unimedimg");
-	var xinformativo = document.getElementById('informativoportifolio');
-	var yinformativo = document.getElementById('informativoimg');
+	var xinformativo = document.getElementById("informativoportifolio");
+	var yinformativo = document.getElementById("informativoimg");
 	var titulo = document.getElementById('titulo');
 
 	xamil.style.display = "none";
@@ -111,8 +111,8 @@ function unimeddiv(){
 }
 
 function informativodiv(){
-	var xinformativo = document.getElementById('informativoportifolio');
-	var yinformativo = document.getElementById('informativoimg');
+	var xinformativo = document.getElementById("informativoportifolio");
+	var yinformativo = document.getElementById("informativoimg");
 
 	titulo.innerHTML = "Informativos";
 	xinformativo.style.display = "block";
