@@ -29,6 +29,7 @@ const staticAssets = [
     './img/individual/bradesco/guiabradescosupremo.jpg',
     './img/individual/bradesco/guiasupremohospitalar.jpg',
     './img/individual/bradesco/supremohospitalar.jpg',
+    './img/individual/hapvida/odonto.jpg',
     './img/individual/hapvida/ascomp.jpg',
     './img/individual/hapvida/coletivoclubedesaude.jpg',
     './img/individual/hapvida/guiahapvida.jpg',
