@@ -24,7 +24,6 @@ h1{
   left: 0;
   width: 25%;
   background: rgba(0,0,0,0.4);
-  /*background-color: #0f4c75;*/
   padding: 0;
 }
   
@@ -32,7 +31,6 @@ h1{
   right: 0;
   width: 75%;
   background: #d31313;
-  /*background-color: #00b7c2;*/
 }
   
 .centered {
@@ -41,15 +39,16 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding-top: 0;
+  padding-top: 5px;
 }
   
 .centered img {
   border-radius: 10%;
   padding: 0;
   margin: 0;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
   
 .sidebar{
@@ -91,14 +90,10 @@ h1{
   vertical-align: middle;
   background: rgba(0, 0, 0, 0.08);
 }
-
-.imglogo{
-  cursor: pointer;
-}
   
 .imglogo:hover{
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
 }
 
 #titulo{
@@ -117,7 +112,7 @@ h1{
   .centered img {
     border-radius: 10%;
     padding: 0;
-    margin: 0;
+    margin: 0 0 -7px 0;
     width: 85px;
     height: 85px;
   }
