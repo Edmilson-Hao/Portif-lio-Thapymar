@@ -8,7 +8,7 @@ const staticAssets = [
     './manifest.json',
     './secondstyle.css',
     './sw.js',
-    './img/empresarial/amil/amilempresarial.jpg',
+    './img/empresarial/amil/amilempresarial.pdf',
     './img/empresarial/amil/odontopme.jpg',
     './img/empresarial/hapvida/pme.jpg',
     './img/empresarial/hapvida/supersimples.jpg',
