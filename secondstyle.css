@@ -108,6 +108,15 @@ h1{
   right: 0;
 }
 
+.arrow-back{
+  width: 4em;
+  height: 4em;
+  position: absolute;
+  top: 0;
+  left: 0; 
+  color: white;
+}
+
 @media only screen and (min-width: 1024px) {
   .centered img {
     border-radius: 10%;
