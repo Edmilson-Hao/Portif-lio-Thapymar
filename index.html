@@ -20,10 +20,11 @@
 
 </head>
 <body>
-    <main>
+    <div class="container">
+        <h1>Procurar Planos</h1>
         <div class="input-group mb-3 w-50 mx-auto center">
             <input type="text" class="form-control" placeholder="Operadora / Entidade" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Procurar</button>
+            <button class="btn btn-outline-dark" type="button" id="button-addon2">Procurar</button>
         </div>
     
         <div class="radios-menu d-flex justify-content-center">
@@ -40,71 +41,66 @@
                 </label>
             </div>
         </div>
-    </main>
+    
+        <ul id="charactersList">
 
-    <section class="d-flex justify-content-center">
-        <ul id="tabelas">
-            <li class='width-half'>
-                <p>
+            <li class="character">
+                <a href="./img/planos/amil-odonto.jpg" target="_blank">
                     <h2>Amil Odonto</h2>
-                    <span>Individual</span>
-                </p>
-                <img src="./img/logos/amil.png"></img>
-                <span class="description" hidden>Amil, Odonto, Individual</span>
+                    <p>Individual</p>
+                    <img src="./img/logos/amil.png"></img>
+                    <span class="description" hidden>Amil, Odonto, Individual</span>
+                </a>
             </li>
 
-            <li class='width-half'>
-                <p>
+            <li class="character">
+                <a href="./img/planos/amil-premium.jpg" target="_blank">
                     <h2>Amil Premium</h2>
-                    <span>Adesão</span>
-                </p>
-                <img src="./img/logos/amil.png"></img>
-                <span class="description" hidden>Amil, Adesão, Qualicorp, ABRACEM - Profissional Liberal, UBE - Estudante, ASMPF - Servidor Público, UBES - Estudante Secundarista, FECONESTE - Empregado do Comércio, UNE - Estudante Universitário</span>
+                    <p>Adesão</p>
+                    <img src="./img/logos/amil.png"></img>
+                    <span class="description" hidden>Amil, Adesão, Qualicorp, ABRACEM - Profissional Liberal, UBE - Estudante, ASMPF - Servidor Público, UBES - Estudante Secundarista, FECONESTE - Empregado do Comércio, UNE - Estudante Universitário</span>
+                </a>
             </li>
 
-            <li class='width-half'>
-                <p>
+            <li class="character">
+                <a href="./img/planos/guia-amil-premium.jpg" target="_blank">
                     <h2>Guia Amil Premium</h2>
-                    <span>Adesão</span>
-                </p>
-                <img src="./img/logos/amil.png"></img>
-                <span class="description" hidden>Amil, Guia, Adesão, Qualicorp, ABRACEM - Profissional Liberal, UBE - Estudante, ASMPF - Servidor Público, UBES - Estudante Secundarista, FECONESTE - Empregado do Comércio, UNE - Estudante Universitário</span>
+                    <p>Adesão</p>
+                    <img src="./img/logos/amil.png"></img>
+                    <span class="description" hidden>Amil, Guia, Adesão, Qualicorp, ABRACEM - Profissional Liberal, UBE - Estudante, ASMPF - Servidor Público, UBES - Estudante Secundarista, FECONESTE - Empregado do Comércio, UNE - Estudante Universitário</span>
+                </a>
             </li>
 
-            <li class='width-half'>
-                <p>
+            <li class="character">
+                <a href="./img/planos/amil-supremo.jpg" target="_blank">
                     <h2>Amil Supremo</h2>
-                    <span>Adesão</span>
-                </p>
-                <img src="./img/logos/amil.png"></img>
-                <span class="description" hidden>Amil, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - Cirurgião-Dentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
+                    <p>Adesão</p>
+                    <img src="./img/logos/amil.png"></img>
+                    <span class="description" hidden>Amil, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - Cirurgião-Dentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
+                </a>
             </li>
 
-            <li class='width-half'>
-                <a href="./img/planos/guia-amil-supremo.jpg">
-                    <p>
-                        <h2>Guia Amil Supremo</h2>
-                        <span>Adesão</span>
-                    </p>
+            <li class="character">
+                <a href="./img/planos/guia-amil-supremo.jpg" target="_blank">
+                    <h2>Guia Amil Supremo</h2>
+                    <p>Adesão</p>
                     <img src="./img/logos/amil.png"></img>
                     <span class="description" hidden>Amil, Guia, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - Cirurgião-Dentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
                 </a>
             </li>
 
-
-
-            <li class='width-half'>
-                <a href="">
-                    <p>
-                        <h2></h2>
-                        <span></span>
-                    </p>
-                    <img src="./img/logos/"></img>
-                    <span class="description" hidden></span>
-                </a>
-            </li>
         </ul>
-    </section>
+    </div>
+
+    <li class="character">
+        <a href="">
+            <h2></h2>
+            <p></p>
+            <img src=""></img>
+            <span class="description" hidden></span>
+        </a>
+    </li>
+
 
 
 
