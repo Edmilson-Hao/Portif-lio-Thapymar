@@ -48,6 +48,11 @@ ul img {
   top: -2em;
 }
 
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
 .width-half {
   width: 43%;
 }
