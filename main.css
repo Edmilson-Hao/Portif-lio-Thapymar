@@ -16,12 +16,9 @@ h1 {
   text-align: center;
 }
 
-@media (orientation: portrait {
+@media (orientation: portrait) {
     .container {
-        padding: 40px;
-        margin: 0 auto;
         max-width: 80vw;
-        text-align: center;
     }
 }
 
