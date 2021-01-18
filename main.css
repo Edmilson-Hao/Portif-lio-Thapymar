@@ -16,6 +16,12 @@ h1 {
   text-align: center;
 }
 
+@media (pointer:none), (pointer:coarse) {
+    .container {
+        width:100vw;
+    }
+}
+
 #listaPlanos {
   padding-inline-start: 0;
   display: grid;
