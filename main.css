@@ -16,14 +16,14 @@ h1 {
   text-align: center;
 }
 
-#charactersList {
+#listaPlanos {
   padding-inline-start: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 20px;
 }
 
-.character {
+.plano {
   list-style-type: none;
   background-color: #eaeaea;
   border-radius: 3px;
@@ -31,26 +31,33 @@ h1 {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas:
-      'name descriction'
-      'house descriction';
+      'name image'
+      'descriction image';
   text-align: left;
 }
 
-.character > h2 {
+.plano > a {
+  text-decoration: none;
+  color: black;
+}
+
+.plano > h2 {
   grid-area: name;
   margin-bottom: 0px;
 }
 
-.character > p {
+.plano > p {
   grid-area: descriction;
   margin: 0;
   margin-top: -18px;
 }
 
-.character > img {
-  top: 1em;
+.plano img {
+  position: relative;
+  top: -3em;
+  right: -6em;
   float: right;
-  max-height: 5vh;
-  max-width: 5vh;
+  max-height: 10vh;
+  max-width: 10vh;
   grid-area: image;
 }

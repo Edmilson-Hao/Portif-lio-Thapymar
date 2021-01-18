@@ -24,7 +24,7 @@
         <h1>Procurar Planos</h1>
         <div class="input-group mb-3 w-50 mx-auto center">
             <input type="text" class="form-control" placeholder="Operadora / Entidade" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-dark" type="button" id="button-addon2">Procurar</button>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Procurar</button>
         </div>
     
         <div class="radios-menu d-flex justify-content-center">
@@ -42,9 +42,9 @@
             </div>
         </div>
     
-        <ul id="charactersList">
-
-            <li class="character">
+        <ul id="listaPlanos">
+            <!--
+            <li class="plano">
                 <a href="./img/planos/amil-odonto.jpg" target="_blank">
                     <h2>Amil Odonto</h2>
                     <p>Individual</p>
@@ -53,7 +53,7 @@
                 </a>
             </li>
 
-            <li class="character">
+            <li class="plano">
                 <a href="./img/planos/amil-premium.jpg" target="_blank">
                     <h2>Amil Premium</h2>
                     <p>Adesão</p>
@@ -62,7 +62,7 @@
                 </a>
             </li>
 
-            <li class="character">
+            <li class="plano">
                 <a href="./img/planos/guia-amil-premium.jpg" target="_blank">
                     <h2>Guia Amil Premium</h2>
                     <p>Adesão</p>
@@ -71,16 +71,16 @@
                 </a>
             </li>
 
-            <li class="character">
+            <li class="plano">
                 <a href="./img/planos/amil-supremo.jpg" target="_blank">
                     <h2>Amil Supremo</h2>
                     <p>Adesão</p>
                     <img src="./img/logos/amil.png"></img>
-                    <span class="description" hidden>Amil, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - Cirurgião-Dentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
+                    <span class="description" hidden>Amil, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - CirurgiãoDentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
                 </a>
             </li>
 
-            <li class="character">
+            <li class="plano">
                 <a href="./img/planos/guia-amil-supremo.jpg" target="_blank">
                     <h2>Guia Amil Supremo</h2>
                     <p>Adesão</p>
@@ -88,12 +88,77 @@
                     <span class="description" hidden>Amil, Guia, Adesão, Qualicorp, AJUFE - Juiz Federal, CRMV-PE - Veterinário, ANAMATRA - Magistrado, CRN-6 - Nustricionista e Técnico em Nutrição e Dietética, CAA-PE - Advogado e Estagiário, CRO-PE - Cirurgião-Dentista, Técnico e Auxiliar, COREN-PE - Enfermeiro, Técnico e Auxiliar de Enfermagem, CRP-2 - Psicólogo, CRA-PE - Administradores, Administração e Estudante, FNA - Arquitetura e Urbanista, Arquiteto, CRC-PE - Contabilista e Técnico, MÚTUA - Engenheiro e Profisisonaldo CREA, CREF-12 - Profissional de Educação Física e Estudantes, SINDIRECEITA - Servidor Público, CREFONO-4, Fonoaudiólogo</span>
                 </a>
             </li>
+            
+            <li class="plano">
+                <a href="./img/planos/bradesco-odonto.jpg" target="_blank">
+                    <h2>Bradesco Odonto</h2>
+                    <p>Individual</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Bradesco, Odonto, Individual</span>
+                </a>
+            </li>
 
+            <li class="plano">
+                <a href="./img/planos/bradesco-premium.jpg" target="_blank">
+                    <h2>Bradesco Premium</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Bradesco, Qualicorp, Premium, Adesão, FECOMÉRCIO-PE - Empregador do Comércio, FECONESTE - Empregado do Comércio</span>
+                </a>
+            </li>
+
+            <li class="plano">
+                <a href="./img/planos/guia-bradesco-premium.jpg" target="_blank">
+                    <h2>Guia Bradesco Premium</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Guia, Qualicorp, Bradesco, Premium, Adesão, FECOMÉRCIO-PE - Empregador do Comércio, FECONESTE - Empregado do Comércio</span>
+                </a>
+            </li>
+
+            <li class="plano">
+                <a href="./img/planos/bradesco-supremo.jpg" target="_blank">
+                    <h2>Bradesco Supremo</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Bradesco, Qualicorp, Supremo, Adesão, ABADIR - Advogado, CORECON-PE - Economista e Estudante, AJUFE - Juiz Federal, CRA-PE - Administrador, AMB - Magistrado, CRO-PE - Cirurgião Dentista, AMB - Médico, FNA - Arquiteto e Urbanista, ANAMATRA - Servidor público - Magistrado da Justiça do Trabalho, MÚTUA - Engenheiro e Profissional do CREA, CAA-PE - Advogados, SASPB - Servidor Público, CRC-PE - Contador e Técnico Contabilista</span>
+                </a>
+            </li>
+
+            <li class="plano">
+                <a href="./img/planos/guia-bradesco-supremo.jpg" target="_blank">
+                    <h2>Guia Bradesco Supremo</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Guia, Qualicorp, Bradesco, Supremo, Adesão, ABADIR - Advogado, CORECON-PE - Economista e Estudante, AJUFE - Juiz Federal, CRA-PE - Administrador, AMB - Magistrado, CRO-PE - Cirurgião Dentista, AMB - Médico, FNA - Arquiteto e Urbanista, ANAMATRA - Servidor público - Magistrado da Justiça do Trabalho, MÚTUA - Engenheiro e Profissional do CREA, CAA-PE - Advogados, SASPB - Servidor Público, CRC-PE - Contador e Técnico Contabilista</span>
+                </a>
+            </li>
+
+            <li class="plano">
+                <a href="./img/planos/bradesco-supremo-hospitalar.jpg" target="_blank">
+                    <h2>Bradesco Supremo Hospitalar</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Bradesco, Qualicorp, Supremo, Adesão, HospitalarABRABDIR - Advogado, FNA - Arquiteto e Urbanista, AMB - Médico</span>
+                </a>
+            </li>
+
+            <li class="plano">
+                <a href="./img/planos/guia-bradesco-supremo-hospitalar.jpg" target="_blank">
+                    <h2>Guia Bradesco Supremo Hospitalar</h2>
+                    <p>Adesão</p>
+                    <img src="./img/logos/bradesco.png"></img>
+                    <span class="description" hidden>Guia, Bradesco, Qualicorp, Supremo, Adesão, HospitalarABRABDIR - Advogado, FNA - Arquiteto e Urbanista, AMB - Médico</span>
+                </a>
+            </li>
+            -->
+
+            
         </ul>
     </div>
 
-    <li class="character">
-        <a href="">
+    <li class="plano">
+        <a href="" target="_blank">
             <h2></h2>
             <p></p>
             <img src=""></img>
