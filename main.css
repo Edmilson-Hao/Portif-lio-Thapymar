@@ -16,22 +16,21 @@ h1 {
   text-align: center;
 }
 
-@media (hover: none) and (pointer: coarse) and (orientation: portrait){
-  .container {
-        width: 10px;
-  }
-  
-  #listaPlanos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
-  }
-}
-
 #listaPlanos {
   padding-inline-start: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 20px;
+}
+
+@media (hover: none) and (pointer: coarse) and (orientation: portrait){
+  .container {
+        width: 90vw;
+  }
+  
+  #listaPlanos {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
 }
 
 .plano {
