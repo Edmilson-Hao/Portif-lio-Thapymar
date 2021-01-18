@@ -16,10 +16,15 @@ h1 {
   text-align: center;
 }
 
-@media (orientation: portrait) {
-    .container {
-        max-width: 80vw;
-    }
+@media (hover: none) and (pointer: coarse) and (orientation: portrait){
+  .container {
+        width: 80vw;
+  }
+  
+  #listaPlanos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
 }
 
 #listaPlanos {
