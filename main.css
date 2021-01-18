@@ -26,6 +26,8 @@ h1 {
 @media (hover: none) and (pointer: coarse) and (orientation: portrait){
   .container {
         width: 90vw;
+        padding: 40px;
+        marging: 0 auto;
   }
   
   #listaPlanos {
