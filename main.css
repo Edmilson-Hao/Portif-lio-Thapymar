@@ -18,12 +18,12 @@ h1 {
 
 @media (hover: none) and (pointer: coarse) and (orientation: portrait){
   .container {
-        width: 50vw;
+        width: 30vw;
   }
   
   #listaPlanos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
 }
 }
 
