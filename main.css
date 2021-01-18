@@ -16,7 +16,7 @@ h1 {
   text-align: center;
 }
 
-@media (pointer:none), (pointer:coarse) {
+@media (orientation: landscape) {
     .container {
         width:100vw;
     }
