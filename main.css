@@ -67,3 +67,14 @@ h1 {
 .plano:hover {
   border: 1px solid white;
 }
+
+#search-div {
+  width: 50%;
+}
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  #search-div {
+    width: 100%;
+  }
+}
