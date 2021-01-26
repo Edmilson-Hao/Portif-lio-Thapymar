@@ -15,6 +15,8 @@
 
 		const splitedSearchString = searchString.split(' ')
 		const splitedSearchStringSize = splitedSearchString.length - 1
+		
+		/*
 		if(splitedSearchString[splitedSearchStringSize] === '') splitedSearchString.pop()
 
 		splitedSearchString.forEach( string => {
@@ -23,17 +25,20 @@
 
 				if (spanDescription.includes(string)) li.style.display = 'grid'
 			})
-		})		
+		})
+		*/
 
-		if (searchString === '') clearDisplay()
-		
-		/*
 		li.forEach(li => {
 			let spanDescription = li.children[0].children[3].innerText.toLowerCase()
 
 			if (spanDescription.includes(searchString)) li.style.display = 'grid'
 			else li.style.display = 'none'
 		})
+
+		if (searchString === '') clearDisplay()
+		
+		/*
+		
 		*/
 	}
 
